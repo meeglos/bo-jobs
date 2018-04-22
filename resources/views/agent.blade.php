@@ -4,13 +4,26 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <div class="card border border-info">
-                <div class="card-header bg-info text-white">
-                    Listado de agentes de la plataforma.
-                    <form class="form-inline my-2 my-lg-0">
-                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+            <div class="card">
+                <div class="card-header bg-light">
+                    <div class="row">
+                        <div class="col-md-5 mt-1">
+                            Listado de agentes de la plataforma.
+                        </div>
+                        <div class="col-md-6">
+                            <form class="form-inline my-2 my-lg-0">
+                              <div class="input-group input-group-sm mb-1" style="width: 100%;">
+                                <div class="input-group-prepend">
+                                  <button class="btn btn-info" type="button">Buscar</button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                            </form>
+                        </div>
+                        <div class="col-md-1">
+                            <button type="button" class="btn btn-info btn-sm">Agregar</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card-body">
